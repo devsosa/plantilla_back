@@ -1,0 +1,33 @@
+{
+  "name": "plantilla_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "nodemon app.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-prettier": "0.0.0-empty",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nvm": "^0.0.4",
+    "sequelize": "^6.19.0",
+    "sequelize-auto": "^0.8.8"
+  }
+}
